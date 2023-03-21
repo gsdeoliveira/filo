@@ -240,7 +240,7 @@ p, a {
     }
     
     /* ---------- INTRO ---------- */
-    .intro img{
+    .intro nav img{
         width: 120px;
     }
 
@@ -271,7 +271,7 @@ p, a {
         font-size: 50%;
     }
     /* ---------- INTRO ---------- */
-    .intro img {
+    .intro nav img {
         width: 100px;
     }
     .nav nav ul li a {
