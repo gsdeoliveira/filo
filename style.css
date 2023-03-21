@@ -274,7 +274,7 @@ p, a {
     .intro img {
         width: 100px;
     }
-    .nav nav ul li {
+    .nav nav ul li a {
         padding: 0 1rem;
     }
 
@@ -309,6 +309,15 @@ p, a {
 @media (max-width: 580px) {
     section, footer, main {
         padding: 3rem 5rem;
+    }
+
+    /* ---------- INTRO ---------- */
+    .intro img {
+        width: 80px;
+    }
+    
+    .nav nav ul li a {
+        padding: 0 .5rem;
     }
 
 }
