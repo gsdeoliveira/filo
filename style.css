@@ -287,6 +287,11 @@ p, a {
     background-image: linear-gradient(to right, var(--Cyan), var(--Blue));
 }
 
+.form form input[type=submit]:hover {
+    background-image: none;
+    background-color: var(--Cyan);
+}
+
 /* ---------- FOOTER ---------- */
 footer {
     background-color: var(--DarkBlue-3);
@@ -305,6 +310,7 @@ footer {
 }
 
 .footer div p {
+    color: #CBD5E1;
     margin-top: 1.5rem;
 }
 
@@ -314,8 +320,13 @@ footer {
 }
 
 .footer div ul li {
+    color: #CBD5E1;
     font-size: 1.6rem;
     padding: .75rem 0;
+}
+
+.footer div ul li:hover, .footer div p:hover {
+    color: var(--White);
 }
 
 .footer div i {
@@ -326,6 +337,12 @@ footer {
     text-align: center;
     border: 1px solid #CBD5E1;
     border-radius: 100vw;
+}
+
+.fa-brands:hover {
+    color: var(--Cyan);
+    border: 1px solid var(--Cyan);
+    cursor: pointer;
 }
 
 @media (max-width: 980px) {
