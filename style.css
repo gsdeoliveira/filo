@@ -312,7 +312,11 @@ footer {
 
 .footer div p {
     color: #CBD5E1;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
+}
+
+.footer div.location p:first-child {
+    margin-bottom: 2rem;
 }
 
 .footer div img:not(.logo) {
@@ -320,10 +324,11 @@ footer {
     height: 12px;
 }
 
+
 .footer div ul li {
     color: #CBD5E1;
     font-size: 1.6rem;
-    padding: .75rem 0;
+    padding: .75rem 0 0 0;
 }
 
 .footer div ul li:hover, .footer div p:hover {
@@ -462,7 +467,7 @@ footer {
     }
 
     .footer div ul {
-        margin: 3rem 0;
+        margin: 3rem 0 1.5rem 0;
     }
 
     .footer div.socials-icons {
