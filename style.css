@@ -245,11 +245,11 @@ p, a {
     text-align: center;
     position: relative;
     top: 8rem;
-
 }
 
 .form form {
     display: flex;
+    position: relative;
     gap: 3rem;
     margin-top: 2rem;
 }
@@ -263,6 +263,7 @@ p, a {
     padding: 1rem 2rem;
     border: none;
     border-radius: 50px;
+    margin-bottom: 1rem;
 }
 
 .form form input:first-child {
@@ -270,7 +271,19 @@ p, a {
     color: #000;
 }
 
-.form form input:last-child {
+.form input:first-child ~ span {
+    display: none;
+    font-size: 1.6rem;
+    color: var(--Red);
+    position: absolute;
+    bottom: -2rem;
+}
+
+.form input:required:not(:placeholder-shown):invalid ~ span {
+    display: block;
+}
+
+.form form input[type=submit] {
     background-image: linear-gradient(to right, var(--Cyan), var(--Blue));
 }
 
