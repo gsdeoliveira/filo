@@ -398,11 +398,25 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-
+    
     .card {
         width: 100%;
     }
+    
+    /* ---------- SECTION FORM ---------- */
+    .form {
+        width: 90%;
+    }
+    .form form {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem 0;
+    }
 
+    .form form input:first-child, .form form input:last-child {
+        display: block;
+        width: 100%;
+    }
     /* ---------- SECTION FOOTER ---------- */
     .footer {
         flex-direction: column;
@@ -429,21 +443,11 @@ footer {
         margin: 0 .75rem;
     }
 
-    .form form {
-        display: flex;
-        flex-direction: column;
-        gap: 1.5rem 0;
-    }
-
-    .form form input:first-child, .form form input:last-child {
-        display: block;
-        width: 100%;
-    }
 
 }
 
 @media (max-width: 580px) {
-    section, footer, main {
+    section, main {
         padding: 3rem 5rem;
     }
 
@@ -455,5 +459,4 @@ footer {
     .nav nav ul li a {
         padding: 0 .5rem;
     }
-
 }
